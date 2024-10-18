@@ -1,24 +1,20 @@
 import { _decorator, Component, Node, NodeEventType } from 'cc';
+import { Bird } from './Bird';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameController')
 export class GameController extends Component {
-    @property({type:Node})
-    public Ground1: Node;
-    @property({type:Node})
-    public Ground2: Node;
-    @property({type:Node})
-    public Ground3: Node;
+    public static instace: GameController;
 
-    @property({type:Number})
-    public GroundWidth: Number;
-    start() {
-
+    @property({ type: Bird })
+    public bird: Bird
+    onLoad() {
+        if (GameController.instace != null)
+            GameController.instace = this;
+        else
+            this.destroy();
     }
 
-    update(deltaTime: number) {
-        
-    }
 }
 
 
