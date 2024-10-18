@@ -17,6 +17,7 @@ export class PipeSpawnControl extends Component {
     public birdHeight: number;
     SetPipeSize() {
         this.topPipe.getComponent(UITransform).height = (this.pipeHeightConfig/2) + (math.randomRange(0, this.pipeHeightConfig/2));
+        this.bottomPipe.getComponent(UITransform).height = (this.pipeHeightConfig/2) + (math.randomRange(0, this.pipeHeightConfig/2));
     }
     SetPipePostion() {
 
