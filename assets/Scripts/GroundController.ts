@@ -1,4 +1,5 @@
 import { _decorator, Canvas, Component, director, Node, UITransform, Vec3 } from 'cc';
+import { GameController } from './GameController';
 const { ccclass, property } = _decorator;
 enum EEndground {
     ground1,
@@ -50,18 +51,20 @@ export class GroundController extends Component {
     }
     CheckGroundReturn() {
         let getVec = this.GetEndGround();
-        if (this.ground1Vec.x < -(0 + this.groundWidth + 40)) {
+        if (this.ground1Vec.x < -(0 + this.groundWidth)) {
             this.ground1Vec.x = getVec.x + this.groundWidth;
             this.currentEndGround = EEndground.ground1;
+            GameController.Instance().ground1.ReSpawnPipe();
         }
-        if (this.ground2Vec.x < -(0 + this.groundWidth + 40)) {
+        if (this.ground2Vec.x < -(0 + this.groundWidth)) {
             this.ground2Vec.x = getVec.x + this.groundWidth;
             this.currentEndGround = EEndground.ground2;
-
+            GameController.Instance().ground2.ReSpawnPipe();
         }
-        if (this.ground3Vec.x < -(0 + this.groundWidth + 40)) {
+        if (this.ground3Vec.x < -(0 + this.groundWidth)) {
             this.ground3Vec.x = getVec.x + this.groundWidth;
             this.currentEndGround = EEndground.ground3;
+            GameController.Instance().ground3.ReSpawnPipe();
         }
 
 
