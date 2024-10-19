@@ -23,22 +23,51 @@ export class GroundController extends Component {
     private ground2Vec: Vec3;
     private ground3Vec: Vec3;
 
-
+    /// bottom pipe = chiều cao màn hình / 2 sau đó "trừ" chiều cao của bottom height sau đó "trừ" (chiều cao của bird / 2) ====> là khoảng gới hạn dưới mà bird có thể bay ==> ví dụ giưới hạn là -45 thì khi bird > -45 sẽ là va chạm.
+    /// top pipe tương tự như vậy nhưng là số dương
+    @property
+    public positionDetectCollision: number;
+    @property
+    public positionEndDetectCollision: number;
     start() {
         this.groundWidth = this.Ground1.getComponent(UITransform).width;
         this.ground1Vec = new Vec3(0, 0, 0);
         this.ground2Vec = new Vec3(this.groundWidth, 0, 0);
         this.ground3Vec = new Vec3(this.groundWidth * 2, 0, 0);
         this.currentEndGround = EEndground.ground3;
+        this.positionDetectCollision = (GameController.Instance().canvas.getComponent(UITransform).width / 2) - (this.groundWidth / 2) + (GameController.Instance().bird.getComponent(UITransform).width);
+        this.positionEndDetectCollision = this.positionDetectCollision - ((GameController.Instance().bird.getComponent(UITransform).width * 2) - 20);
         this.GroundPositionChanges();
     }
 
     update(deltaTime: number) {
         this.RunGround(deltaTime);
+        this.CheckBirdCollisionWidthPipe();
         this.CheckGroundReturn();
         this.GroundPositionChanges();
 
     }
+    CheckBirdCollisionWidthPipe() {
+        if (this.ground1Vec.x < this.positionDetectCollision && this.ground1Vec.x > this.positionEndDetectCollision) {
+            let currentBirdPosition = GameController.Instance().bird.node.position;
+            if (currentBirdPosition.y > GameController.Instance().ground1.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground1.bottomPipeCollision)
+                director.pause();
+        }
+        if (this.ground2Vec.x < this.positionDetectCollision && this.ground2Vec.x > this.positionEndDetectCollision) {
+            let currentBirdPosition = GameController.Instance().bird.node.position;
+            if (currentBirdPosition.y > GameController.Instance().ground2.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground2.bottomPipeCollision)
+                director.pause();
+
+        }
+        if (this.ground3Vec.x < this.positionDetectCollision && this.ground3Vec.x > this.positionEndDetectCollision) {
+            let currentBirdPosition = GameController.Instance().bird.node.position;
+            if (currentBirdPosition.y > GameController.Instance().ground3.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground3.bottomPipeCollision)
+                director.pause();
+
+        }
+    }
+
+
     RunGround(deltaTime: number) {
         this.ground1Vec.x -= deltaTime * this.groundSpeed;
         this.ground2Vec.x -= deltaTime * this.groundSpeed;
@@ -79,6 +108,9 @@ export class GroundController extends Component {
                 return this.ground3Vec;
         }
     }
+
+
+
 }
 
 

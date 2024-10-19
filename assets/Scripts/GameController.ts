@@ -1,4 +1,4 @@
-import { _decorator, Canvas, Component, Game, Node, NodeEventType } from 'cc';
+import { _decorator, Canvas, Component, Game, Node, NodeEventType, UITransform } from 'cc';
 import { Bird } from './Bird';
 import { PipeSpawnControl } from './PipeSpawnControl';
 const { ccclass, property } = _decorator;
@@ -30,6 +30,8 @@ export class GameController extends Component {
     public ground2: PipeSpawnControl;
     @property({ type: PipeSpawnControl })
     public ground3: PipeSpawnControl;
+
+   
     onLoad() {
         if (GameController.instance == null) {
             GameController.instance = this;
