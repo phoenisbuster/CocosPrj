@@ -1,7 +1,9 @@
-import { _decorator, Canvas, Component, director, Node, UITransform, Vec3 } from 'cc';
+import { _decorator, Canvas, Component, Details, director, Game, Node, UITransform, Vec3 } from 'cc';
 import { GameController } from './GameController';
+import { EventTarget } from 'cc';
 const { ccclass, property } = _decorator;
 enum EEndground {
+    none,
     ground1,
     ground2,
     ground3,
@@ -29,7 +31,16 @@ export class GroundController extends Component {
     public positionDetectCollision: number;
     @property
     public positionEndDetectCollision: number;
+    @property
+    public currentTimeCount: number = 0;
+    @property
+    public lastGroundSccoreCheck: EEndground = EEndground.none;
+    @property
+    public currentGroundSccoreCheck: EEndground = EEndground.none;
     start() {
+        this.RestartGround();
+    }
+    public RestartGround() {
         this.groundWidth = this.Ground1.getComponent(UITransform).width;
         this.ground1Vec = new Vec3(0, 0, 0);
         this.ground2Vec = new Vec3(this.groundWidth, 0, 0);
@@ -38,35 +49,73 @@ export class GroundController extends Component {
         this.positionDetectCollision = (GameController.Instance().canvas.getComponent(UITransform).width / 2) - (this.groundWidth / 2) + (GameController.Instance().bird.getComponent(UITransform).width);
         this.positionEndDetectCollision = this.positionDetectCollision - ((GameController.Instance().bird.getComponent(UITransform).width * 2) - 20);
         this.GroundPositionChanges();
-    }
+        this.currentTimeCount = GameController.Instance().timeCountStartGame;
 
+    }
     update(deltaTime: number) {
+        if(!GameController.Instance().isStartGame)
+            return;
         this.RunGround(deltaTime);
-        this.CheckBirdCollisionWidthPipe();
+        if (this.currentTimeCount >= 0) {
+            this.currentTimeCount -= deltaTime;
+        }
+        else {
+            this.CheckBirdCollisionWidthPipe();
+        }
+        this.CheckScore();
         this.CheckGroundReturn();
         this.GroundPositionChanges();
 
     }
-    CheckBirdCollisionWidthPipe() {
-        if (this.ground1Vec.x < this.positionDetectCollision && this.ground1Vec.x > this.positionEndDetectCollision) {
-            let currentBirdPosition = GameController.Instance().bird.node.position;
-            if (currentBirdPosition.y > GameController.Instance().ground1.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground1.bottomPipeCollision)
-                director.pause();
+    CheckScore() {
+        if (this.ground1Vec.x < this.positionDetectCollision - GameController.Instance().bird.getComponent(UITransform).width && this.ground1Vec.x > 0 && this.currentGroundSccoreCheck != EEndground.ground1) {
+            if (!GameController.Instance().ground1.topPipe.active)
+                return;
+            this.currentGroundSccoreCheck = EEndground.ground1;
+            this.PlusSocre();
         }
-        if (this.ground2Vec.x < this.positionDetectCollision && this.ground2Vec.x > this.positionEndDetectCollision) {
-            let currentBirdPosition = GameController.Instance().bird.node.position;
-            if (currentBirdPosition.y > GameController.Instance().ground2.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground2.bottomPipeCollision)
-                director.pause();
-
+        if (this.ground2Vec.x < this.positionDetectCollision - GameController.Instance().bird.getComponent(UITransform).width && this.ground2Vec.x > 0 && this.currentGroundSccoreCheck != EEndground.ground2) {
+            if (!GameController.Instance().ground2.topPipe.active)
+                return;
+            this.currentGroundSccoreCheck = EEndground.ground2;
+            this.PlusSocre();
         }
-        if (this.ground3Vec.x < this.positionDetectCollision && this.ground3Vec.x > this.positionEndDetectCollision) {
-            let currentBirdPosition = GameController.Instance().bird.node.position;
-            if (currentBirdPosition.y > GameController.Instance().ground3.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground3.bottomPipeCollision)
-                director.pause();
-
+        if (this.ground3Vec.x < this.positionDetectCollision - GameController.Instance().bird.getComponent(UITransform).width && this.ground3Vec.x > 0 && this.currentGroundSccoreCheck != EEndground.ground3) {
+            if (!GameController.Instance().ground3.topPipe.active)
+                return;
+            this.currentGroundSccoreCheck = EEndground.ground3;
+            this.PlusSocre();
         }
     }
+    CheckBirdCollisionWidthPipe() {
+        if (this.ground1Vec.x < this.positionDetectCollision && this.ground1Vec.x > this.positionEndDetectCollision) {
+            if (!GameController.Instance().ground1.topPipe.active)
+                return;
+            let currentBirdPosition = GameController.Instance().bird.node.position;
+            if (currentBirdPosition.y > GameController.Instance().ground1.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground1.bottomPipeCollision)
+                GameController.Instance().GameOver();
+        }
 
+        if (this.ground2Vec.x < this.positionDetectCollision && this.ground2Vec.x > this.positionEndDetectCollision) {
+            if (!GameController.Instance().ground2.topPipe.active)
+                return;
+            let currentBirdPosition = GameController.Instance().bird.node.position;
+            if (currentBirdPosition.y > GameController.Instance().ground2.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground2.bottomPipeCollision)
+                GameController.Instance().GameOver();
+        }
+
+        if (this.ground3Vec.x < this.positionDetectCollision && this.ground3Vec.x > this.positionEndDetectCollision) {
+            if (!GameController.Instance().ground3.topPipe.active)
+                return;
+            let currentBirdPosition = GameController.Instance().bird.node.position;
+            if (currentBirdPosition.y > GameController.Instance().ground3.topPipeCollision || currentBirdPosition.y < GameController.Instance().ground3.bottomPipeCollision)
+                GameController.Instance().GameOver();
+        }
+    }
+    PlusSocre() {
+        GameController.Instance().currentScore += 1;
+        GameController.Instance().inGameScoreLabel.string = GameController.Instance().currentScore.toString();
+    }
 
     RunGround(deltaTime: number) {
         this.ground1Vec.x -= deltaTime * this.groundSpeed;

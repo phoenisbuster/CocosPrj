@@ -34,8 +34,18 @@ export class PipeSpawnControl extends Component {
         this.bottomPipe.setPosition(new Vec3(this.horizonPositionConfig, 0, 0));
     }
     public ReSpawnPipe() {
+        if (GameController.Instance().groundController.currentTimeCount <= 0) {
+            this.topPipe.active = true;
+            this.bottomPipe.active = true;
+        }
+        if (!this.topPipe.active || !this.bottomPipe)
+            return;
         this.SetPipePostion();
         this.SetPipeSize();
+    }
+    public RestartPipe() {
+        this.topPipe.active = false;
+        this.bottomPipe.active = false;
     }
     start() {
         this.screenHeight = GameController.Instance().canvas.getComponent(UITransform).height;
