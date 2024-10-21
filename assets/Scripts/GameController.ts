@@ -1,4 +1,4 @@
-import { _decorator, Canvas, Component, director, Game, Label, Node, NodeEventType, UITransform } from 'cc';
+import { _decorator, Canvas, Component, director, Game, Label, Node, NodeEventType, UITransform, Vec3 } from 'cc';
 import { Bird } from './Bird';
 import { PipeSpawnControl } from './PipeSpawnControl';
 import { EventTarget } from 'cc';
@@ -23,7 +23,6 @@ export class GameController extends Component {
     // }
     @property({ type: Bird })
     public bird: Bird;
-
     @property({ type: Node })
     public canvas: Node;
     @property({ type: GroundController })
@@ -36,10 +35,12 @@ export class GameController extends Component {
     public ground3: PipeSpawnControl;
     @property
     public timeCountStartGame: number = 5;
-
+    @property
+    public screenHeight: number;
+    @property
+    public screenWidth: number;
     @property({ type: Label })
     public overScoreLabel: Label;
-
     @property({ type: Label })
     public inGameScoreLabel: Label;
     public currentScore: number;
@@ -56,6 +57,11 @@ export class GameController extends Component {
         } else {
             this.destroy(); // Nếu đã có instance, hủy node mới
         }
+        this.screenHeight = this.canvas.getComponent(UITransform).height;
+        this.screenWidth = this.canvas.getComponent(UITransform).width;
+        this.groundController.node.position = new Vec3(0, -(GameController.Instance().screenHeight / 2), 0);
+        this.groundController.node.position = new Vec3(-(GameController.Instance().screenWidth / 2), 0, 0);
+
     }
     public GameOver() {
         director.pause();
@@ -67,6 +73,7 @@ export class GameController extends Component {
         if (!this.gameOverPopup.active)
             return;
         director.resume();
+        this.inGamePopup.active = true;
         this.groundController.RestartGround();
         this.bird.RestartBird();
         this.ground1.RestartPipe();

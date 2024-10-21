@@ -42,9 +42,9 @@ export class GroundController extends Component {
     }
     public RestartGround() {
         this.groundWidth = this.Ground1.getComponent(UITransform).width;
-        this.ground1Vec = new Vec3(0, 0, 0);
-        this.ground2Vec = new Vec3(this.groundWidth, 0, 0);
-        this.ground3Vec = new Vec3(this.groundWidth * 2, 0, 0);
+        this.ground1Vec = new Vec3(0, -(GameController.Instance().screenHeight / 2), 0);
+        this.ground2Vec = new Vec3(this.groundWidth, -(GameController.Instance().screenHeight / 2), 0);
+        this.ground3Vec = new Vec3(this.groundWidth * 2, -(GameController.Instance().screenHeight / 2), 0);
         this.currentEndGround = EEndground.ground3;
         this.positionDetectCollision = (GameController.Instance().canvas.getComponent(UITransform).width / 2) - (this.groundWidth / 2) + (GameController.Instance().bird.getComponent(UITransform).width);
         this.positionEndDetectCollision = this.positionDetectCollision - ((GameController.Instance().bird.getComponent(UITransform).width * 2) - 20);
@@ -53,7 +53,7 @@ export class GroundController extends Component {
 
     }
     update(deltaTime: number) {
-        if(!GameController.Instance().isStartGame)
+        if (!GameController.Instance().isStartGame)
             return;
         this.RunGround(deltaTime);
         if (this.currentTimeCount >= 0) {
