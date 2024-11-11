@@ -1,0 +1,750 @@
+{
+  "b3c93c63-826d-4188-a0b7-64da40a31ad5": {
+    "url": "db://assets/Animations",
+    "value": {}
+  },
+  "9594ff5c-da44-4e16-a0b6-5e1d4e253ee0": {
+    "url": "db://assets/Resource",
+    "value": {}
+  },
+  "cdd1129c-5309-462f-8f47-50322fa9265c": {
+    "url": "db://assets/Scene",
+    "value": {}
+  },
+  "35d814bd-6317-4ac0-a41c-15078114b3cf": {
+    "url": "db://assets/Scripts",
+    "value": {}
+  },
+  "47dcca85-d14e-4f3c-b5c1-0776ec393f6f": {
+    "url": "db://assets/Resource/ads",
+    "value": {}
+  },
+  "ef5de5eb-90b1-44e0-9349-e3ade88cee7a": {
+    "url": "db://assets/Resource/audio",
+    "value": {}
+  },
+  "0335610c-6f3a-4b75-a015-d1fd52fe1b79": {
+    "url": "db://assets/Resource/sprites",
+    "value": {}
+  },
+  "e834b9e1-06d8-440e-b4b8-88fed40ebb5c": {
+    "url": "db://assets/Scripts/AdsManager",
+    "value": {}
+  },
+  "190f6104-6ec0-4d6c-9c56-0fe74391c14d": {
+    "url": "db://assets/Scripts/ClientEventManager",
+    "value": {}
+  },
+  "18f5210f-cca1-45a3-8805-44e61adce514": {
+    "url": "db://assets/Scripts/Bird.ts",
+    "value": {}
+  },
+  "52ee666f-a1dc-4284-b445-4a1537f89e77": {
+    "url": "db://assets/Scripts/GameController.ts",
+    "value": {}
+  },
+  "39a56c0c-1d62-47b9-b634-ec1a281983e7": {
+    "url": "db://assets/Scripts/GroundController.ts",
+    "value": {}
+  },
+  "c363bc23-fdfe-4a37-b1b1-cd374c51eac7": {
+    "url": "db://assets/Scripts/PipeSpawnControl.ts",
+    "value": {}
+  },
+  "dd159276-4a58-4de0-b8f4-68b492bdbc72": {
+    "url": "db://assets/Scripts/AdsManager/AdsData.ts",
+    "value": {}
+  },
+  "5adacc3e-23d6-4558-8a76-7fce620285c1": {
+    "url": "db://assets/Scripts/AdsManager/AdsKey.ts",
+    "value": {}
+  },
+  "8e7f0427-46de-439e-a149-6e5b7beccc14": {
+    "url": "db://assets/Scripts/AdsManager/MyAdmod.ts",
+    "value": {}
+  },
+  "a0b1b1c0-d4fb-4e6a-aca6-70d6a6285194": {
+    "url": "db://assets/Scripts/ClientEventManager/ClientEventManager.ts",
+    "value": {}
+  },
+  "c2d2dd8a-07c6-47b7-b0bc-65f8ec52d660": {
+    "url": "db://assets/Animations/birdAnim.anim",
+    "value": {
+      "depends": [
+        "b8d002c2-5988-40ab-beb8-6cef76d11768@f9941",
+        "b11d24f9-021a-462e-8dcd-79785d3df3a6@f9941",
+        "76856375-3750-48d0-8d2b-d7aa3ed974b4@f9941"
+      ]
+    }
+  },
+  "8b84b4b8-f3df-4f30-8bcf-68b8d02f4dd3": {
+    "url": "db://assets/Scene/GamePlay.scene",
+    "value": {
+      "depends": [
+        "8b84b4b8-f3df-4f30-8bcf-68b8d02f4dd3",
+        "96fdd668-5176-4c74-94e3-e4d543b7797d@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "657685dd-f35e-464d-bc37-5f56166505a4@f9941",
+        "dd472fdb-f541-4123-92a1-a92a534abf8e",
+        "c5eaa6b6-8402-44b4-b5b0-28693c3b348c@f9941",
+        "4d0ca74e-a84d-495c-b688-f235f6961940@f9941",
+        "1c7abf1b-6fda-441b-8dfb-200d61386853@f9941",
+        "76856375-3750-48d0-8d2b-d7aa3ed974b4@f9941",
+        "c2d2dd8a-07c6-47b7-b0bc-65f8ec52d660"
+      ],
+      "dependScripts": [
+        "52ee666f-a1dc-4284-b445-4a1537f89e77",
+        "18f5210f-cca1-45a3-8805-44e61adce514",
+        "8e7f0427-46de-439e-a149-6e5b7beccc14",
+        "c363bc23-fdfe-4a37-b1b1-cd374c51eac7",
+        "39a56c0c-1d62-47b9-b634-ec1a281983e7"
+      ]
+    }
+  },
+  "1cad8e5a-040f-4844-8fba-13cd430dc0af": {
+    "url": "db://assets/Resource/audio/die.ogg",
+    "value": {
+      "depends": []
+    }
+  },
+  "c95ce3b8-fd29-4ff5-b59c-0df8abb7c95b": {
+    "url": "db://assets/Resource/audio/die.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "87d7c60b-ca53-43af-9e52-2d7cf0f7520f": {
+    "url": "db://assets/Resource/favicon.ico",
+    "value": {
+      "depends": []
+    }
+  },
+  "93d3ee3a-30f9-484d-b7e0-571f468815de": {
+    "url": "db://assets/Resource/audio/hit.ogg",
+    "value": {
+      "depends": []
+    }
+  },
+  "7b233a78-706c-4f0f-afde-b5e0a10a2046": {
+    "url": "db://assets/Resource/audio/hit.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "39cb6270-8091-4c0b-a627-373c00b61c69": {
+    "url": "db://assets/Resource/audio/point.ogg",
+    "value": {
+      "depends": []
+    }
+  },
+  "fa44aaad-e4f2-4b4c-8308-8f5ccbf637b9": {
+    "url": "db://assets/Resource/audio/point.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "f1c69cd8-87f7-4a0e-810f-e9e4cb3deaa8": {
+    "url": "db://assets/Resource/audio/swoosh.ogg",
+    "value": {
+      "depends": []
+    }
+  },
+  "7f0457cd-5e17-4604-a457-a633568ae388": {
+    "url": "db://assets/Resource/audio/swoosh.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "2b5bb75b-10bb-44c5-90b5-9363cd0585b3": {
+    "url": "db://assets/Resource/audio/wing.ogg",
+    "value": {
+      "depends": []
+    }
+  },
+  "6760cbd9-16f5-40d9-a0ca-ae3bfed006b2": {
+    "url": "db://assets/Resource/audio/wing.wav",
+    "value": {
+      "depends": []
+    }
+  },
+  "b316ee12-6f40-40dd-ac5a-30b1563c765a": {
+    "url": "db://assets/Resource/sprites/0.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ac8bbb3b-e67b-472c-8ebe-86da9914720b": {
+    "url": "db://assets/Resource/sprites/1.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "14f2fb43-0caf-4493-922d-8154732d33e1": {
+    "url": "db://assets/Resource/sprites/2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9996e160-e6e3-4d7e-94f5-5871cec9aa2b": {
+    "url": "db://assets/Resource/sprites/3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "60d061b5-ecb7-4cd7-9e8f-9a75688b399f": {
+    "url": "db://assets/Resource/sprites/4.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b316ee12-6f40-40dd-ac5a-30b1563c765a@6c48a": {
+    "url": "db://assets/Resource/sprites/0.png@6c48a",
+    "value": {
+      "depends": [
+        "b316ee12-6f40-40dd-ac5a-30b1563c765a"
+      ]
+    }
+  },
+  "ac8bbb3b-e67b-472c-8ebe-86da9914720b@6c48a": {
+    "url": "db://assets/Resource/sprites/1.png@6c48a",
+    "value": {
+      "depends": [
+        "ac8bbb3b-e67b-472c-8ebe-86da9914720b"
+      ]
+    }
+  },
+  "14f2fb43-0caf-4493-922d-8154732d33e1@6c48a": {
+    "url": "db://assets/Resource/sprites/2.png@6c48a",
+    "value": {
+      "depends": [
+        "14f2fb43-0caf-4493-922d-8154732d33e1"
+      ]
+    }
+  },
+  "9996e160-e6e3-4d7e-94f5-5871cec9aa2b@6c48a": {
+    "url": "db://assets/Resource/sprites/3.png@6c48a",
+    "value": {
+      "depends": [
+        "9996e160-e6e3-4d7e-94f5-5871cec9aa2b"
+      ]
+    }
+  },
+  "60d061b5-ecb7-4cd7-9e8f-9a75688b399f@6c48a": {
+    "url": "db://assets/Resource/sprites/4.png@6c48a",
+    "value": {
+      "depends": [
+        "60d061b5-ecb7-4cd7-9e8f-9a75688b399f"
+      ]
+    }
+  },
+  "b316ee12-6f40-40dd-ac5a-30b1563c765a@f9941": {
+    "url": "db://assets/Resource/sprites/0.png@f9941",
+    "value": {
+      "depends": [
+        "b316ee12-6f40-40dd-ac5a-30b1563c765a@6c48a"
+      ]
+    }
+  },
+  "bcced0ea-b21c-471b-b4df-b5220b22bf41": {
+    "url": "db://assets/Resource/sprites/5.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ac8bbb3b-e67b-472c-8ebe-86da9914720b@f9941": {
+    "url": "db://assets/Resource/sprites/1.png@f9941",
+    "value": {
+      "depends": [
+        "ac8bbb3b-e67b-472c-8ebe-86da9914720b@6c48a"
+      ]
+    }
+  },
+  "27167ebc-b3f9-4be1-b97d-335d5d8c8250": {
+    "url": "db://assets/Resource/sprites/6.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "14f2fb43-0caf-4493-922d-8154732d33e1@f9941": {
+    "url": "db://assets/Resource/sprites/2.png@f9941",
+    "value": {
+      "depends": [
+        "14f2fb43-0caf-4493-922d-8154732d33e1@6c48a"
+      ]
+    }
+  },
+  "9e9859ff-6dc4-4452-8eb4-fc67c487498a": {
+    "url": "db://assets/Resource/sprites/7.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "9996e160-e6e3-4d7e-94f5-5871cec9aa2b@f9941": {
+    "url": "db://assets/Resource/sprites/3.png@f9941",
+    "value": {
+      "depends": [
+        "9996e160-e6e3-4d7e-94f5-5871cec9aa2b@6c48a"
+      ]
+    }
+  },
+  "a1c9b83a-c2d5-4171-bb82-626702808d09": {
+    "url": "db://assets/Resource/sprites/8.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "60d061b5-ecb7-4cd7-9e8f-9a75688b399f@f9941": {
+    "url": "db://assets/Resource/sprites/4.png@f9941",
+    "value": {
+      "depends": [
+        "60d061b5-ecb7-4cd7-9e8f-9a75688b399f@6c48a"
+      ]
+    }
+  },
+  "5dd1b48b-1388-4871-92a8-a9485fbc5c2f": {
+    "url": "db://assets/Resource/sprites/9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "bcced0ea-b21c-471b-b4df-b5220b22bf41@6c48a": {
+    "url": "db://assets/Resource/sprites/5.png@6c48a",
+    "value": {
+      "depends": [
+        "bcced0ea-b21c-471b-b4df-b5220b22bf41"
+      ]
+    }
+  },
+  "27167ebc-b3f9-4be1-b97d-335d5d8c8250@6c48a": {
+    "url": "db://assets/Resource/sprites/6.png@6c48a",
+    "value": {
+      "depends": [
+        "27167ebc-b3f9-4be1-b97d-335d5d8c8250"
+      ]
+    }
+  },
+  "9e9859ff-6dc4-4452-8eb4-fc67c487498a@6c48a": {
+    "url": "db://assets/Resource/sprites/7.png@6c48a",
+    "value": {
+      "depends": [
+        "9e9859ff-6dc4-4452-8eb4-fc67c487498a"
+      ]
+    }
+  },
+  "a1c9b83a-c2d5-4171-bb82-626702808d09@6c48a": {
+    "url": "db://assets/Resource/sprites/8.png@6c48a",
+    "value": {
+      "depends": [
+        "a1c9b83a-c2d5-4171-bb82-626702808d09"
+      ]
+    }
+  },
+  "bcced0ea-b21c-471b-b4df-b5220b22bf41@f9941": {
+    "url": "db://assets/Resource/sprites/5.png@f9941",
+    "value": {
+      "depends": [
+        "bcced0ea-b21c-471b-b4df-b5220b22bf41@6c48a"
+      ]
+    }
+  },
+  "5dd1b48b-1388-4871-92a8-a9485fbc5c2f@6c48a": {
+    "url": "db://assets/Resource/sprites/9.png@6c48a",
+    "value": {
+      "depends": [
+        "5dd1b48b-1388-4871-92a8-a9485fbc5c2f"
+      ]
+    }
+  },
+  "1c7abf1b-6fda-441b-8dfb-200d61386853": {
+    "url": "db://assets/Resource/sprites/background-day.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "27167ebc-b3f9-4be1-b97d-335d5d8c8250@f9941": {
+    "url": "db://assets/Resource/sprites/6.png@f9941",
+    "value": {
+      "depends": [
+        "27167ebc-b3f9-4be1-b97d-335d5d8c8250@6c48a"
+      ]
+    }
+  },
+  "3d4b12aa-2ee5-4bd3-8915-c59233e72c35": {
+    "url": "db://assets/Resource/sprites/background-night.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a1c9b83a-c2d5-4171-bb82-626702808d09@f9941": {
+    "url": "db://assets/Resource/sprites/8.png@f9941",
+    "value": {
+      "depends": [
+        "a1c9b83a-c2d5-4171-bb82-626702808d09@6c48a"
+      ]
+    }
+  },
+  "9e9859ff-6dc4-4452-8eb4-fc67c487498a@f9941": {
+    "url": "db://assets/Resource/sprites/7.png@f9941",
+    "value": {
+      "depends": [
+        "9e9859ff-6dc4-4452-8eb4-fc67c487498a@6c48a"
+      ]
+    }
+  },
+  "4d0ca74e-a84d-495c-b688-f235f6961940": {
+    "url": "db://assets/Resource/sprites/base.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b8d002c2-5988-40ab-beb8-6cef76d11768": {
+    "url": "db://assets/Resource/sprites/bluebird-downflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5dd1b48b-1388-4871-92a8-a9485fbc5c2f@f9941": {
+    "url": "db://assets/Resource/sprites/9.png@f9941",
+    "value": {
+      "depends": [
+        "5dd1b48b-1388-4871-92a8-a9485fbc5c2f@6c48a"
+      ]
+    }
+  },
+  "b11d24f9-021a-462e-8dcd-79785d3df3a6": {
+    "url": "db://assets/Resource/sprites/bluebird-midflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1c7abf1b-6fda-441b-8dfb-200d61386853@6c48a": {
+    "url": "db://assets/Resource/sprites/background-day.png@6c48a",
+    "value": {
+      "depends": [
+        "1c7abf1b-6fda-441b-8dfb-200d61386853"
+      ]
+    }
+  },
+  "3d4b12aa-2ee5-4bd3-8915-c59233e72c35@6c48a": {
+    "url": "db://assets/Resource/sprites/background-night.png@6c48a",
+    "value": {
+      "depends": [
+        "3d4b12aa-2ee5-4bd3-8915-c59233e72c35"
+      ]
+    }
+  },
+  "b8d002c2-5988-40ab-beb8-6cef76d11768@6c48a": {
+    "url": "db://assets/Resource/sprites/bluebird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "b8d002c2-5988-40ab-beb8-6cef76d11768"
+      ]
+    }
+  },
+  "4d0ca74e-a84d-495c-b688-f235f6961940@6c48a": {
+    "url": "db://assets/Resource/sprites/base.png@6c48a",
+    "value": {
+      "depends": [
+        "4d0ca74e-a84d-495c-b688-f235f6961940"
+      ]
+    }
+  },
+  "b11d24f9-021a-462e-8dcd-79785d3df3a6@6c48a": {
+    "url": "db://assets/Resource/sprites/bluebird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "b11d24f9-021a-462e-8dcd-79785d3df3a6"
+      ]
+    }
+  },
+  "b8d002c2-5988-40ab-beb8-6cef76d11768@f9941": {
+    "url": "db://assets/Resource/sprites/bluebird-downflap.png@f9941",
+    "value": {
+      "depends": [
+        "b8d002c2-5988-40ab-beb8-6cef76d11768@6c48a"
+      ]
+    }
+  },
+  "76856375-3750-48d0-8d2b-d7aa3ed974b4": {
+    "url": "db://assets/Resource/sprites/bluebird-upflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1c7abf1b-6fda-441b-8dfb-200d61386853@f9941": {
+    "url": "db://assets/Resource/sprites/background-day.png@f9941",
+    "value": {
+      "depends": [
+        "1c7abf1b-6fda-441b-8dfb-200d61386853@6c48a"
+      ]
+    }
+  },
+  "96fdd668-5176-4c74-94e3-e4d543b7797d": {
+    "url": "db://assets/Resource/sprites/gameover.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4d0ca74e-a84d-495c-b688-f235f6961940@f9941": {
+    "url": "db://assets/Resource/sprites/base.png@f9941",
+    "value": {
+      "depends": [
+        "4d0ca74e-a84d-495c-b688-f235f6961940@6c48a"
+      ]
+    }
+  },
+  "657685dd-f35e-464d-bc37-5f56166505a4": {
+    "url": "db://assets/Resource/sprites/message.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3d4b12aa-2ee5-4bd3-8915-c59233e72c35@f9941": {
+    "url": "db://assets/Resource/sprites/background-night.png@f9941",
+    "value": {
+      "depends": [
+        "3d4b12aa-2ee5-4bd3-8915-c59233e72c35@6c48a"
+      ]
+    }
+  },
+  "c5eaa6b6-8402-44b4-b5b0-28693c3b348c": {
+    "url": "db://assets/Resource/sprites/pipe-green.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b11d24f9-021a-462e-8dcd-79785d3df3a6@f9941": {
+    "url": "db://assets/Resource/sprites/bluebird-midflap.png@f9941",
+    "value": {
+      "depends": [
+        "b11d24f9-021a-462e-8dcd-79785d3df3a6@6c48a"
+      ]
+    }
+  },
+  "90ffb3ba-779b-40be-a91b-bba6189fd86e": {
+    "url": "db://assets/Resource/sprites/pipe-red.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "76856375-3750-48d0-8d2b-d7aa3ed974b4@6c48a": {
+    "url": "db://assets/Resource/sprites/bluebird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "76856375-3750-48d0-8d2b-d7aa3ed974b4"
+      ]
+    }
+  },
+  "657685dd-f35e-464d-bc37-5f56166505a4@6c48a": {
+    "url": "db://assets/Resource/sprites/message.png@6c48a",
+    "value": {
+      "depends": [
+        "657685dd-f35e-464d-bc37-5f56166505a4"
+      ]
+    }
+  },
+  "96fdd668-5176-4c74-94e3-e4d543b7797d@6c48a": {
+    "url": "db://assets/Resource/sprites/gameover.png@6c48a",
+    "value": {
+      "depends": [
+        "96fdd668-5176-4c74-94e3-e4d543b7797d"
+      ]
+    }
+  },
+  "c5eaa6b6-8402-44b4-b5b0-28693c3b348c@6c48a": {
+    "url": "db://assets/Resource/sprites/pipe-green.png@6c48a",
+    "value": {
+      "depends": [
+        "c5eaa6b6-8402-44b4-b5b0-28693c3b348c"
+      ]
+    }
+  },
+  "90ffb3ba-779b-40be-a91b-bba6189fd86e@6c48a": {
+    "url": "db://assets/Resource/sprites/pipe-red.png@6c48a",
+    "value": {
+      "depends": [
+        "90ffb3ba-779b-40be-a91b-bba6189fd86e"
+      ]
+    }
+  },
+  "76856375-3750-48d0-8d2b-d7aa3ed974b4@f9941": {
+    "url": "db://assets/Resource/sprites/bluebird-upflap.png@f9941",
+    "value": {
+      "depends": [
+        "76856375-3750-48d0-8d2b-d7aa3ed974b4@6c48a"
+      ]
+    }
+  },
+  "96fdd668-5176-4c74-94e3-e4d543b7797d@f9941": {
+    "url": "db://assets/Resource/sprites/gameover.png@f9941",
+    "value": {
+      "depends": [
+        "96fdd668-5176-4c74-94e3-e4d543b7797d@6c48a"
+      ]
+    }
+  },
+  "79fd48cf-831d-43e5-9d5f-969cf2f27203": {
+    "url": "db://assets/Resource/sprites/redbird-downflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "3c2fa99f-35e5-4208-82b4-8b9516a1183d": {
+    "url": "db://assets/Resource/sprites/redbird-midflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "657685dd-f35e-464d-bc37-5f56166505a4@f9941": {
+    "url": "db://assets/Resource/sprites/message.png@f9941",
+    "value": {
+      "depends": [
+        "657685dd-f35e-464d-bc37-5f56166505a4@6c48a"
+      ]
+    }
+  },
+  "ab15f147-46b0-4ae9-b234-12dcde537aa0": {
+    "url": "db://assets/Resource/sprites/redbird-upflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "c5eaa6b6-8402-44b4-b5b0-28693c3b348c@f9941": {
+    "url": "db://assets/Resource/sprites/pipe-green.png@f9941",
+    "value": {
+      "depends": [
+        "c5eaa6b6-8402-44b4-b5b0-28693c3b348c@6c48a"
+      ]
+    }
+  },
+  "695df4fb-315b-4a97-bf38-d25dbc4661e1": {
+    "url": "db://assets/Resource/sprites/yellowbird-downflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "90ffb3ba-779b-40be-a91b-bba6189fd86e@f9941": {
+    "url": "db://assets/Resource/sprites/pipe-red.png@f9941",
+    "value": {
+      "depends": [
+        "90ffb3ba-779b-40be-a91b-bba6189fd86e@6c48a"
+      ]
+    }
+  },
+  "aba317c5-d2b4-4b37-947f-10f2c71af111": {
+    "url": "db://assets/Resource/sprites/yellowbird-midflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "79fd48cf-831d-43e5-9d5f-969cf2f27203@6c48a": {
+    "url": "db://assets/Resource/sprites/redbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "79fd48cf-831d-43e5-9d5f-969cf2f27203"
+      ]
+    }
+  },
+  "3c2fa99f-35e5-4208-82b4-8b9516a1183d@6c48a": {
+    "url": "db://assets/Resource/sprites/redbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "3c2fa99f-35e5-4208-82b4-8b9516a1183d"
+      ]
+    }
+  },
+  "ab15f147-46b0-4ae9-b234-12dcde537aa0@6c48a": {
+    "url": "db://assets/Resource/sprites/redbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "ab15f147-46b0-4ae9-b234-12dcde537aa0"
+      ]
+    }
+  },
+  "695df4fb-315b-4a97-bf38-d25dbc4661e1@6c48a": {
+    "url": "db://assets/Resource/sprites/yellowbird-downflap.png@6c48a",
+    "value": {
+      "depends": [
+        "695df4fb-315b-4a97-bf38-d25dbc4661e1"
+      ]
+    }
+  },
+  "aba317c5-d2b4-4b37-947f-10f2c71af111@6c48a": {
+    "url": "db://assets/Resource/sprites/yellowbird-midflap.png@6c48a",
+    "value": {
+      "depends": [
+        "aba317c5-d2b4-4b37-947f-10f2c71af111"
+      ]
+    }
+  },
+  "3c2fa99f-35e5-4208-82b4-8b9516a1183d@f9941": {
+    "url": "db://assets/Resource/sprites/redbird-midflap.png@f9941",
+    "value": {
+      "depends": [
+        "3c2fa99f-35e5-4208-82b4-8b9516a1183d@6c48a"
+      ]
+    }
+  },
+  "57bcfb0f-1785-492f-b28a-328d0b66a1d4": {
+    "url": "db://assets/Resource/sprites/yellowbird-upflap.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "79fd48cf-831d-43e5-9d5f-969cf2f27203@f9941": {
+    "url": "db://assets/Resource/sprites/redbird-downflap.png@f9941",
+    "value": {
+      "depends": [
+        "79fd48cf-831d-43e5-9d5f-969cf2f27203@6c48a"
+      ]
+    }
+  },
+  "ab15f147-46b0-4ae9-b234-12dcde537aa0@f9941": {
+    "url": "db://assets/Resource/sprites/redbird-upflap.png@f9941",
+    "value": {
+      "depends": [
+        "ab15f147-46b0-4ae9-b234-12dcde537aa0@6c48a"
+      ]
+    }
+  },
+  "695df4fb-315b-4a97-bf38-d25dbc4661e1@f9941": {
+    "url": "db://assets/Resource/sprites/yellowbird-downflap.png@f9941",
+    "value": {
+      "depends": [
+        "695df4fb-315b-4a97-bf38-d25dbc4661e1@6c48a"
+      ]
+    }
+  },
+  "57bcfb0f-1785-492f-b28a-328d0b66a1d4@6c48a": {
+    "url": "db://assets/Resource/sprites/yellowbird-upflap.png@6c48a",
+    "value": {
+      "depends": [
+        "57bcfb0f-1785-492f-b28a-328d0b66a1d4"
+      ]
+    }
+  },
+  "aba317c5-d2b4-4b37-947f-10f2c71af111@f9941": {
+    "url": "db://assets/Resource/sprites/yellowbird-midflap.png@f9941",
+    "value": {
+      "depends": [
+        "aba317c5-d2b4-4b37-947f-10f2c71af111@6c48a"
+      ]
+    }
+  },
+  "57bcfb0f-1785-492f-b28a-328d0b66a1d4@f9941": {
+    "url": "db://assets/Resource/sprites/yellowbird-upflap.png@f9941",
+    "value": {
+      "depends": [
+        "57bcfb0f-1785-492f-b28a-328d0b66a1d4@6c48a"
+      ]
+    }
+  },
+  "dd472fdb-f541-4123-92a1-a92a534abf8e": {
+    "url": "db://assets/Resource/ads/ios.json",
+    "value": {
+      "depends": []
+    }
+  }
+}

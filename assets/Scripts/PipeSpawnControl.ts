@@ -1,4 +1,4 @@
-import { _decorator, Canvas, Component, director, math, Node, random, UIRenderable, UITransform, Vec3 } from 'cc';
+import { _decorator, Canvas, Component, director, math, Node, random, UITransform, Vec3 } from 'cc';
 import { GameController } from './GameController';
 const { ccclass, property } = _decorator;
 

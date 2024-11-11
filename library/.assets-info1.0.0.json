@@ -1,0 +1,405 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Animations": {
+      "time": 1731313167060.369,
+      "uuid": "b3c93c63-826d-4188-a0b7-64da40a31ad5"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource": {
+      "time": 1731313452342.354,
+      "uuid": "9594ff5c-da44-4e16-a0b6-5e1d4e253ee0"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scene": {
+      "time": 1731313333050.0645,
+      "uuid": "cdd1129c-5309-462f-8f47-50322fa9265c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts": {
+      "time": 1731313537838.4944,
+      "uuid": "35d814bd-6317-4ac0-a41c-15078114b3cf"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/ads": {
+      "time": 1731313599101.0203,
+      "uuid": "47dcca85-d14e-4f3c-b5c1-0776ec393f6f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio": {
+      "time": 1731313167105.3958,
+      "uuid": "ef5de5eb-90b1-44e0-9349-e3ade88cee7a"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites": {
+      "time": 1731313167117.5503,
+      "uuid": "0335610c-6f3a-4b75-a015-d1fd52fe1b79"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager": {
+      "time": 1731313382859.9243,
+      "uuid": "e834b9e1-06d8-440e-b4b8-88fed40ebb5c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/ClientEventManager": {
+      "time": 1731313396184.3884,
+      "uuid": "190f6104-6ec0-4d6c-9c56-0fe74391c14d"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/Bird.ts": {
+      "time": 1731312738954.4854,
+      "uuid": "18f5210f-cca1-45a3-8805-44e61adce514"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/GameController.ts": {
+      "time": 1731312738955.7036,
+      "uuid": "52ee666f-a1dc-4284-b445-4a1537f89e77"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/GroundController.ts": {
+      "time": 1731312738956,
+      "uuid": "39a56c0c-1d62-47b9-b634-ec1a281983e7"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/PipeSpawnControl.ts": {
+      "time": 1731312821655.2803,
+      "uuid": "c363bc23-fdfe-4a37-b1b1-cd374c51eac7"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager/AdsData.ts": {
+      "time": 1731313556138.2852,
+      "uuid": "dd159276-4a58-4de0-b8f4-68b492bdbc72"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager/AdsKey.ts": {
+      "time": 1731312738953.4722,
+      "uuid": "5adacc3e-23d6-4558-8a76-7fce620285c1"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager/MyAdmod.ts": {
+      "time": 1731313557873.8606,
+      "uuid": "8e7f0427-46de-439e-a149-6e5b7beccc14"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/ClientEventManager/ClientEventManager.ts": {
+      "time": 1731312738955.1382,
+      "uuid": "a0b1b1c0-d4fb-4e6a-aca6-70d6a6285194"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Animations.meta": {
+      "time": 1731313167060.0283
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource.meta": {
+      "time": 1731313167060.8074
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scene.meta": {
+      "time": 1731313167117.7969
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts.meta": {
+      "time": 1731313167119.1418
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/ads.meta": {
+      "time": 1731313452345.301
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio.meta": {
+      "time": 1731313167061.0415
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites.meta": {
+      "time": 1731313167106.8042
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager.meta": {
+      "time": 1731313452346.641
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/ClientEventManager.meta": {
+      "time": 1731313452347.1187
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/Bird.ts.meta": {
+      "time": 1731313167119.624
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/GameController.ts.meta": {
+      "time": 1731313167119.9458
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/GroundController.ts.meta": {
+      "time": 1731313167120.3699
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/PipeSpawnControl.ts.meta": {
+      "time": 1731313167120.7017
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager/AdsData.ts.meta": {
+      "time": 1731312738953.2153
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager/AdsKey.ts.meta": {
+      "time": 1731312738953.6956
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/AdsManager/MyAdmod.ts.meta": {
+      "time": 1731312738954.2393
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scripts/ClientEventManager/ClientEventManager.ts.meta": {
+      "time": 1731312738955.4033
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Animations/birdAnim.anim": {
+      "time": 1731313167060.277,
+      "uuid": "c2d2dd8a-07c6-47b7-b0bc-65f8ec52d660"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/favicon.ico": {
+      "time": 1731313167106.4392,
+      "uuid": "87d7c60b-ca53-43af-9e52-2d7cf0f7520f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scene/GamePlay.scene": {
+      "time": 1731313813837.336,
+      "uuid": "8b84b4b8-f3df-4f30-8bcf-68b8d02f4dd3"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/die.ogg": {
+      "time": 1731313167062.1423,
+      "uuid": "1cad8e5a-040f-4844-8fba-13cd430dc0af"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/die.wav": {
+      "time": 1731313167064.742,
+      "uuid": "c95ce3b8-fd29-4ff5-b59c-0df8abb7c95b"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/hit.ogg": {
+      "time": 1731313167065.7366,
+      "uuid": "93d3ee3a-30f9-484d-b7e0-571f468815de"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/hit.wav": {
+      "time": 1731313167091.1475,
+      "uuid": "7b233a78-706c-4f0f-afde-b5e0a10a2046"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/point.ogg": {
+      "time": 1731313167092.163,
+      "uuid": "39cb6270-8091-4c0b-a627-373c00b61c69"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/point.wav": {
+      "time": 1731313167100.0498,
+      "uuid": "fa44aaad-e4f2-4b4c-8308-8f5ccbf637b9"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/swoosh.ogg": {
+      "time": 1731313167100.6855,
+      "uuid": "f1c69cd8-87f7-4a0e-810f-e9e4cb3deaa8"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/swoosh.wav": {
+      "time": 1731313167103.8152,
+      "uuid": "7f0457cd-5e17-4604-a457-a633568ae388"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/wing.ogg": {
+      "time": 1731313167104.4175,
+      "uuid": "2b5bb75b-10bb-44c5-90b5-9363cd0585b3"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/wing.wav": {
+      "time": 1731313167105.2812,
+      "uuid": "6760cbd9-16f5-40d9-a0ca-ae3bfed006b2"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/0.png": {
+      "time": 1731313167107.087,
+      "uuid": "b316ee12-6f40-40dd-ac5a-30b1563c765a"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/1.png": {
+      "time": 1731313167107.47,
+      "uuid": "ac8bbb3b-e67b-472c-8ebe-86da9914720b"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/2.png": {
+      "time": 1731313167107.769,
+      "uuid": "14f2fb43-0caf-4493-922d-8154732d33e1"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/3.png": {
+      "time": 1731313167108.12,
+      "uuid": "9996e160-e6e3-4d7e-94f5-5871cec9aa2b"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/4.png": {
+      "time": 1731313167108.478,
+      "uuid": "60d061b5-ecb7-4cd7-9e8f-9a75688b399f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/5.png": {
+      "time": 1731313167108.863,
+      "uuid": "bcced0ea-b21c-471b-b4df-b5220b22bf41"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/6.png": {
+      "time": 1731313167109.1887,
+      "uuid": "27167ebc-b3f9-4be1-b97d-335d5d8c8250"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/7.png": {
+      "time": 1731313167109.539,
+      "uuid": "9e9859ff-6dc4-4452-8eb4-fc67c487498a"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/8.png": {
+      "time": 1731313167109.8318,
+      "uuid": "a1c9b83a-c2d5-4171-bb82-626702808d09"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/9.png": {
+      "time": 1731313167110.1187,
+      "uuid": "5dd1b48b-1388-4871-92a8-a9485fbc5c2f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/background-day.png": {
+      "time": 1731313167110.5293,
+      "uuid": "1c7abf1b-6fda-441b-8dfb-200d61386853"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/background-night.png": {
+      "time": 1731313167110.8994,
+      "uuid": "3d4b12aa-2ee5-4bd3-8915-c59233e72c35"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/base.png": {
+      "time": 1731313167111.3096,
+      "uuid": "4d0ca74e-a84d-495c-b688-f235f6961940"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/bluebird-downflap.png": {
+      "time": 1731313167112.2173,
+      "uuid": "b8d002c2-5988-40ab-beb8-6cef76d11768"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/bluebird-midflap.png": {
+      "time": 1731313167112.7407,
+      "uuid": "b11d24f9-021a-462e-8dcd-79785d3df3a6"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/bluebird-upflap.png": {
+      "time": 1731313167113.1418,
+      "uuid": "76856375-3750-48d0-8d2b-d7aa3ed974b4"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/gameover.png": {
+      "time": 1731313167113.4724,
+      "uuid": "96fdd668-5176-4c74-94e3-e4d543b7797d"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/message.png": {
+      "time": 1731313167113.8057,
+      "uuid": "657685dd-f35e-464d-bc37-5f56166505a4"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/pipe-green.png": {
+      "time": 1731313167114.2527,
+      "uuid": "c5eaa6b6-8402-44b4-b5b0-28693c3b348c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/pipe-red.png": {
+      "time": 1731313167114.6958,
+      "uuid": "90ffb3ba-779b-40be-a91b-bba6189fd86e"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/redbird-downflap.png": {
+      "time": 1731313167115.2063,
+      "uuid": "79fd48cf-831d-43e5-9d5f-969cf2f27203"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/redbird-midflap.png": {
+      "time": 1731313167115.864,
+      "uuid": "3c2fa99f-35e5-4208-82b4-8b9516a1183d"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/redbird-upflap.png": {
+      "time": 1731313167116.196,
+      "uuid": "ab15f147-46b0-4ae9-b234-12dcde537aa0"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/yellowbird-downflap.png": {
+      "time": 1731313167116.7825,
+      "uuid": "695df4fb-315b-4a97-bf38-d25dbc4661e1"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/yellowbird-midflap.png": {
+      "time": 1731313167117.1433,
+      "uuid": "aba317c5-d2b4-4b37-947f-10f2c71af111"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/yellowbird-upflap.png": {
+      "time": 1731313167117.4524,
+      "uuid": "57bcfb0f-1785-492f-b28a-328d0b66a1d4"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Animations/birdAnim.anim.meta": {
+      "time": 1731313167060.4302
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Scene/GamePlay.scene.meta": {
+      "time": 1731313167118.8838
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/favicon.ico.meta": {
+      "time": 1731313167106.6387
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/die.ogg.meta": {
+      "time": 1731313167062.4473
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/hit.ogg.meta": {
+      "time": 1731313167065.913
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/die.wav.meta": {
+      "time": 1731313167065.1067
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/point.ogg.meta": {
+      "time": 1731313167092.3657
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/hit.wav.meta": {
+      "time": 1731313167091.3718
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/swoosh.ogg.meta": {
+      "time": 1731313167100.8555
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/wing.ogg.meta": {
+      "time": 1731313167104.6123
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/point.wav.meta": {
+      "time": 1731313167100.3528
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/wing.wav.meta": {
+      "time": 1731313167105.5088
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/audio/swoosh.wav.meta": {
+      "time": 1731313167104.1116
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/0.png.meta": {
+      "time": 1731313167107.29
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/1.png.meta": {
+      "time": 1731313167107.6272
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/2.png.meta": {
+      "time": 1731313167107.966
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/3.png.meta": {
+      "time": 1731313167108.3235
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/4.png.meta": {
+      "time": 1731313167108.6875
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/5.png.meta": {
+      "time": 1731313167109.0332
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/6.png.meta": {
+      "time": 1731313167109.3926
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/8.png.meta": {
+      "time": 1731313167109.9775
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/7.png.meta": {
+      "time": 1731313167109.6843
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/9.png.meta": {
+      "time": 1731313167110.3074
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/bluebird-downflap.png.meta": {
+      "time": 1731313167112.5386
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/background-day.png.meta": {
+      "time": 1731313167110.7336
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/base.png.meta": {
+      "time": 1731313167111.5908
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/background-night.png.meta": {
+      "time": 1731313167111.0615
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/bluebird-midflap.png.meta": {
+      "time": 1731313167112.9658
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/bluebird-upflap.png.meta": {
+      "time": 1731313167113.3105
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/gameover.png.meta": {
+      "time": 1731313167113.635
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/message.png.meta": {
+      "time": 1731313167114.0522
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/pipe-green.png.meta": {
+      "time": 1731313167114.4922
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/pipe-red.png.meta": {
+      "time": 1731313167114.9055
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/redbird-midflap.png.meta": {
+      "time": 1731313167116.0432
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/redbird-downflap.png.meta": {
+      "time": 1731313167115.6016
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/redbird-upflap.png.meta": {
+      "time": 1731313167116.4214
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/yellowbird-downflap.png.meta": {
+      "time": 1731313167116.9792
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/yellowbird-midflap.png.meta": {
+      "time": 1731313167117.2979
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/sprites/yellowbird-upflap.png.meta": {
+      "time": 1731313167117.6306
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/ads/ios.json.meta": {
+      "time": 1731313599101.464
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/assets/Resource/ads/ios.json": {
+      "time": 1731313599101.054,
+      "uuid": "dd472fdb-f541-4123-92a1-a92a534abf8e"
+    }
+  },
+  "missing": {}
+}
