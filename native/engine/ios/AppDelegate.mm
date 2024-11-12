@@ -33,6 +33,8 @@
 #import "platform/ios/AppDelegateBridge.h"
 #import "service/SDKWrapper.h"
 
+#import "AdServiceHub.h"
+
 @implementation AppDelegate
 @synthesize window;
 @synthesize appDelegateBridge;
@@ -43,6 +45,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[SDKWrapper shared] application:application didFinishLaunchingWithOptions:launchOptions];
     appDelegateBridge = [[AppDelegateBridge alloc] init];
+    
+    [[AdServiceHub sharedInstance] initAdService];
     
     // Add the view controller's view to the window and display.
     CGRect bounds = [[UIScreen mainScreen] bounds];
@@ -75,6 +79,8 @@
      */
     [[SDKWrapper shared] applicationDidBecomeActive:application];
     [appDelegateBridge applicationDidBecomeActive:application];
+    
+//    [[AdServiceHub sharedInstance] debugBannerView];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

@@ -190,12 +190,23 @@ export class MyAdmod extends Component
             this.bannerView = new BannerClient();
         }
         const self = this;
-        this.bannerView.load(this.adsData._adUnitId_Banner, {
+        this.bannerView.load(this.adsData._adUnitId_Banner, 
+        {
             onAdLoaded() {
                 self.bannerView.show(true);
             },
-        }, {
-            type: BannerSizeType.Builtin,
+            onAdFailedToLoad(loadError: LoadAdError) {
+                error(`MyAdmob: onAdFailedToLoad = "${loadError}" `);
+            },
+            onAdClicked() {
+                log(`MyAdmob: onAdClicked`);
+            },
+            onAdOpened() {
+                log(`MyAdmob: onAdOpened`);
+            },
+
+        }, 
+        {
             size: BannerSize.BANNER,
             alignments: BottomCenter
         });

@@ -20,7 +20,7 @@
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "11-11-2024 15:40:48 build success in 141789 ms!",
+        "message": "11-11-2024 15:48:53 build success in 82075 ms!",
         "options": {
           "name": "CocosLearn",
           "server": "",
@@ -56,7 +56,52 @@
           "buildMode": "normal",
           "logDest": "project://temp/builder/log/ios11-11-2024 15-38.log"
         },
-        "time": "11-11-2024 15:38:26",
+        "time": "11-11-2024 15:47:31",
+        "dirty": false
+      },
+      "1731315406436": {
+        "type": "build",
+        "id": "1731315406436",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "11-11-2024 16:50:03 build success in 72414 ms!",
+        "options": {
+          "name": "CocosLearn",
+          "server": "",
+          "platform": "ios",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "8b84b4b8-f3df-4f30-8bcf-68b8d02f4dd3",
+          "outputName": "ios-001",
+          "taskName": "ios-001",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/GamePlay.scene",
+              "uuid": "8b84b4b8-f3df-4f30-8bcf-68b8d02f4dd3"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/ios11-11-2024 15-56.log"
+        },
+        "time": "11-11-2024 16:48:51",
         "dirty": false
       }
     }

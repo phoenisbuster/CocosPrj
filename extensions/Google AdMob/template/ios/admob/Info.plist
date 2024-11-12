@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-3940256099942544~1458002511</string>
+    <string>ca-app-pub-6181188364108391~7167369182</string>
     <key>SKAdNetworkItems</key>
     <array>
       <dict>
@@ -212,7 +212,7 @@
     <key>CFBundleDisplayName</key>
     <string>${PRODUCT_NAME}</string>
     <key>CFBundleExecutable</key>
-    <string>${EXECUTABLE_NAME}</string>
+    <string>${CC_EXECUTABLE_NAME}</string>
     <key>CFBundleIcons~ipad</key>
     <dict/>
     <key>CFBundleIdentifier</key>
