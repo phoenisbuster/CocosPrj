@@ -1,0 +1,13 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "ios",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "appId": "ca-app-pub-8324331787898491~7405770858",
+    "interstitialAdUnitId": "ca-app-pub-3940256099942544/1033173712",
+    "rewardedAdUnitId": "ca-app-pub-8324331787898491/2293044979",
+    "bannerAdUnitId": "ca-app-pub-8324331787898491/1221891481"
+  }
+}

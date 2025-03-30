@@ -1,0 +1,79 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "ios",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "ios"
+    },
+    "options": {
+      "ios": {
+        "executableName": "MyFlappyBird",
+        "packageName": "com.learn.flappybird",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.1",
+        "developerTeam": "7F85W7S6F5_7F5F59B307A4A712DA3139A7D2ED97A26FBCE43E"
+      }
+    },
+    "taskOptionsMap": {
+      "1731314306149": {
+        "executableName": "MyFlappyBird",
+        "packageName": "com.learn.flappybird",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.1",
+        "developerTeam": "7F85W7S6F5_7F5F59B307A4A712DA3139A7D2ED97A26FBCE43E"
+      },
+      "1731315406436": {
+        "executableName": "MyFlappyBird",
+        "packageName": "com.learn.flappybird",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "skipUpdateXcodeProject": false,
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "osTarget": {
+          "iphoneos": true,
+          "simulator": true
+        },
+        "targetVersion": "12.0",
+        "__version__": "1.0.1",
+        "developerTeam": "7F85W7S6F5_7F5F59B307A4A712DA3139A7D2ED97A26FBCE43E"
+      }
+    },
+    "__version__": "1.3.7"
+  }
+}

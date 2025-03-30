@@ -1,0 +1,391 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads": {
+      "time": 1731313750908.286,
+      "uuid": "e06f5e1b-e008-41ad-a73e-f440f71a68a2"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core": {
+      "time": 1731313750826.8655,
+      "uuid": "b7247fdc-76d7-4cd6-bc9d-4cb02ac1013c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc": {
+      "time": 1731313750816.7617,
+      "uuid": "0d81978c-03a0-4ed3-b0b6-ed9df494dffd"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto": {
+      "time": 1731313750810.8188,
+      "uuid": "788ad575-479c-4d28-b462-8b55cdb66099"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/alias": {
+      "time": 1731313750909.806,
+      "uuid": "0359e70f-7b14-44de-9f80-746da7059149"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client": {
+      "time": 1731313750906.7817,
+      "uuid": "71b3440c-b617-4e1b-b378-44199c8726a8"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener": {
+      "time": 1731313750879.7283,
+      "uuid": "c8421c98-b296-43a5-b7dd-698df3bbb48a"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Bridge.ts": {
+      "time": 1731313750827.037,
+      "uuid": "9fa2bf9a-8fbd-4604-a679-01ee19c70cbf"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Codec.ts": {
+      "time": 1731313750825.141,
+      "uuid": "5fc3cb04-f0b0-4cb4-9d24-0252002557e2"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/INativeResponse.ts": {
+      "time": 1731313750823.4973,
+      "uuid": "03548645-8596-4045-bbd2-f189b23ff007"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Route.ts": {
+      "time": 1731313750821.613,
+      "uuid": "d7d2c687-91b8-49c7-b3a8-8d0b462650c5"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Version.ts": {
+      "time": 1731313750819.6648,
+      "uuid": "aca25fa3-b853-4c33-92bc-7460b42cf53f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerAlignment.ts": {
+      "time": 1731313750816.8809,
+      "uuid": "22c7d83e-ade1-4bfd-bbe1-e3a3c0e3f103"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerSize.ts": {
+      "time": 1731313750815.8813,
+      "uuid": "e3b6e38a-bd95-44b5-9813-3949193b14d4"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerSizeOption.ts": {
+      "time": 1731313750814.7312,
+      "uuid": "5616b4f9-aed2-4471-8ffb-dd7543f44f5f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerSizeType.ts": {
+      "time": 1731313750813.7742,
+      "uuid": "79ab002f-e683-4eda-bf55-413be2c423a7"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/TestUnitId.ts": {
+      "time": 1731313750812.913,
+      "uuid": "82ff30e0-3dcc-4ef6-94a7-975aa662bfae"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/AppOpenAd.ts": {
+      "time": 1731313750810.9348,
+      "uuid": "1b2e4049-9804-4ba1-8169-d1416e0b1fed"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/BannerAd.ts": {
+      "time": 1731313750809.797,
+      "uuid": "a3850145-9e1a-4af0-b5e3-589fd7ba43ea"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/Base.ts": {
+      "time": 1731313750808.2056,
+      "uuid": "83981705-7ab6-4010-90b5-31ba026a0258"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/ICallbackNTF.ts": {
+      "time": 1731313750807.2,
+      "uuid": "6c8da75e-c4b2-46c2-a8c6-436bac2fadd8"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/InterstitailAd.ts": {
+      "time": 1731313750806.1086,
+      "uuid": "351a6706-8567-4795-a65a-e6eabf02c67c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/NativeAd.ts": {
+      "time": 1731313750804.956,
+      "uuid": "7b7c21a5-e56f-46a2-b78b-54ff281f04d8"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/PaidEventNTF.ts": {
+      "time": 1731313750803.876,
+      "uuid": "e2d81a9c-bda5-41bd-ad3c-d2d39664153f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/RewardedAd.ts": {
+      "time": 1731313750802.7087,
+      "uuid": "a19d6db7-5307-40ba-b6dc-1d29ee4ade1c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/RewardedInterstitialAd.ts": {
+      "time": 1731313750800.6653,
+      "uuid": "f35b0656-9e2b-4777-898b-e159cda3b4e1"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/Version.ts": {
+      "time": 1731313750799.2803,
+      "uuid": "54026014-6f73-4d4d-b718-3bcf0472cf62"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/alias/TypeAlias.ts": {
+      "time": 1731313750910.0178,
+      "uuid": "5738fc7c-e56a-4ca7-a6db-dd0ed62bb617"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/AdClient.ts": {
+      "time": 1731313750906.9526,
+      "uuid": "913dd5d2-6680-44a3-9006-a7bf7c8a004f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/AppOpenAdClient.ts": {
+      "time": 1731313750905.2922,
+      "uuid": "de391246-67b4-4598-82e8-a0f81fd596db"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/BannerClient.ts": {
+      "time": 1731313750902.663,
+      "uuid": "67876fb1-9332-483b-a81f-5738928b257c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/InterstitialAdClient.ts": {
+      "time": 1731313750899.484,
+      "uuid": "0133ad48-faeb-4a8d-9765-ec6013ce196c"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/NativeAdClient.ts": {
+      "time": 1731313750897.1797,
+      "uuid": "2051e8a7-89df-45f1-8452-e68ad43199d0"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/RewardedAdClient.ts": {
+      "time": 1731313750890.9404,
+      "uuid": "9c82390c-12a8-46df-9e15-de9022fba6ef"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/RewardedInterstitialAdClient.ts": {
+      "time": 1731313750886.293,
+      "uuid": "bcd46e03-b92f-441d-916a-2fe5afed973d"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AdListener.ts": {
+      "time": 1731313750880.0596,
+      "uuid": "f6d88441-4bdb-4fcc-803b-0f266d2e3653"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AppOpenAdFullScreenContentCallback.ts": {
+      "time": 1731313750877.0564,
+      "uuid": "a57d656b-e279-4df6-997a-d72ef701b563"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AppOpenAdListener.ts": {
+      "time": 1731313750874.3997,
+      "uuid": "515ead52-f399-4516-9251-da9edb581acf"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AppOpenAdLoadCallback.ts": {
+      "time": 1731313750872.0154,
+      "uuid": "22adf95e-7062-4e92-a6e3-721f553cdcc2"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/BannerAdListener.ts": {
+      "time": 1731313750869.3005,
+      "uuid": "94014c14-f976-468b-898f-d808a12a0e09"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/FullScreenContentCallback.ts": {
+      "time": 1731313750865.32,
+      "uuid": "37fb7764-dada-4a9c-a2cc-63d055220938"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/InterstitialAdListener.ts": {
+      "time": 1731313750861.6685,
+      "uuid": "4f544ee1-331c-487a-92de-3840aed8f445"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/InterstitialAdLoadCallback.ts": {
+      "time": 1731313750858.633,
+      "uuid": "95c6b891-7a75-4fbf-bd32-1334eca57fa1"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/InterstitialFullScreenContentCallback.ts": {
+      "time": 1731313750856.8716,
+      "uuid": "268623ec-30b8-40b1-8649-307571662623"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/NativeAdListener.ts": {
+      "time": 1731313750855.1772,
+      "uuid": "98273602-d343-44ea-99e5-495d3687da32"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnNativeAdLoadedListener.ts": {
+      "time": 1731313750852.5466,
+      "uuid": "2a2e67d1-6200-487b-ab47-9a3ebb80bd92"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnPaidEventListener.ts": {
+      "time": 1731313750849.4065,
+      "uuid": "0f71135b-1a46-4143-8f16-9b192778d356"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnShowAdCompleteListener.ts": {
+      "time": 1731313750846.0513,
+      "uuid": "62f0f7df-8564-47d6-b19c-0c9b63e850d3"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnUserEarnedRewardListener.ts": {
+      "time": 1731313750841.3865,
+      "uuid": "6d0a25a2-5284-4103-8e79-505358c33154"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedAdFullScreenContentCallback.ts": {
+      "time": 1731313750839.8545,
+      "uuid": "ccbcc953-3390-4b79-a431-6260f29579ea"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedAdListener.ts": {
+      "time": 1731313750838.3254,
+      "uuid": "b10b10d4-95e8-4906-b962-61c3e5a7ff48"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedAdLoadCallback.ts": {
+      "time": 1731313750836.9011,
+      "uuid": "59c6aca1-a8ec-4ab8-8282-1588874b17e8"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedInterstitialAdLoadCallback.ts": {
+      "time": 1731313750835.047,
+      "uuid": "31b4a82c-cbf4-4044-917f-d2fe874cacc2"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedInterstitialFullScreenContentCallback.ts": {
+      "time": 1731313750833.4062,
+      "uuid": "684a93ac-028a-4f5c-ab3f-3cda9044a86f"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedInterstitialListener.ts": {
+      "time": 1731313750831.6287,
+      "uuid": "2ce66b40-5d82-4a4d-8730-5cd6cf4e40f6"
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads.meta": {
+      "time": 1731313751820.4167
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core.meta": {
+      "time": 1731313751820.9019
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc.meta": {
+      "time": 1731313751821.238
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto.meta": {
+      "time": 1731313751823.73
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/alias.meta": {
+      "time": 1731313751824.9224
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client.meta": {
+      "time": 1731313751841.0815
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener.meta": {
+      "time": 1731313751844.3506
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Bridge.ts.meta": {
+      "time": 1731313750826.2239
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Codec.ts.meta": {
+      "time": 1731313750824.3018
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/INativeResponse.ts.meta": {
+      "time": 1731313750822.689
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Route.ts.meta": {
+      "time": 1731313750820.6194
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/core/Version.ts.meta": {
+      "time": 1731313750818.8838
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerAlignment.ts.meta": {
+      "time": 1731313750816.3794
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerSize.ts.meta": {
+      "time": 1731313750815.3433
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerSizeOption.ts.meta": {
+      "time": 1731313750814.236
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/BannerSizeType.ts.meta": {
+      "time": 1731313750813.332
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/misc/TestUnitId.ts.meta": {
+      "time": 1731313750812.4678
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/AppOpenAd.ts.meta": {
+      "time": 1731313750810.4
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/BannerAd.ts.meta": {
+      "time": 1731313750809.1477
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/Base.ts.meta": {
+      "time": 1731313750807.7605
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/ICallbackNTF.ts.meta": {
+      "time": 1731313750806.6135
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/InterstitailAd.ts.meta": {
+      "time": 1731313750805.607
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/NativeAd.ts.meta": {
+      "time": 1731313750804.35
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/PaidEventNTF.ts.meta": {
+      "time": 1731313750803.301
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/RewardedAd.ts.meta": {
+      "time": 1731313750801.8623
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/RewardedInterstitialAd.ts.meta": {
+      "time": 1731313750799.8064
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/proto/Version.ts.meta": {
+      "time": 1731313750798.7537
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/alias/TypeAlias.ts.meta": {
+      "time": 1731313750909.0837
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/AdClient.ts.meta": {
+      "time": 1731313750906.1416
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/AppOpenAdClient.ts.meta": {
+      "time": 1731313750904.2937
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/BannerClient.ts.meta": {
+      "time": 1731313750900.657
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/InterstitialAdClient.ts.meta": {
+      "time": 1731313750898.2588
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/NativeAdClient.ts.meta": {
+      "time": 1731313750892.509
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/RewardedAdClient.ts.meta": {
+      "time": 1731313750887.9849
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/client/RewardedInterstitialAdClient.ts.meta": {
+      "time": 1731313750885.031
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AdListener.ts.meta": {
+      "time": 1731313750878.7957
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AppOpenAdFullScreenContentCallback.ts.meta": {
+      "time": 1731313750875.623
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AppOpenAdListener.ts.meta": {
+      "time": 1731313750873.2856
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/AppOpenAdLoadCallback.ts.meta": {
+      "time": 1731313750870.7156
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/BannerAdListener.ts.meta": {
+      "time": 1731313750866.8318
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/FullScreenContentCallback.ts.meta": {
+      "time": 1731313750863.2458
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/InterstitialAdListener.ts.meta": {
+      "time": 1731313750860.7437
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/InterstitialAdLoadCallback.ts.meta": {
+      "time": 1731313750857.7637
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/InterstitialFullScreenContentCallback.ts.meta": {
+      "time": 1731313750855.934
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/NativeAdListener.ts.meta": {
+      "time": 1731313750853.8801
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnNativeAdLoadedListener.ts.meta": {
+      "time": 1731313750851.0508
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnPaidEventListener.ts.meta": {
+      "time": 1731313750847.18
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnShowAdCompleteListener.ts.meta": {
+      "time": 1731313750844.1592
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/OnUserEarnedRewardListener.ts.meta": {
+      "time": 1731313750840.5486
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedAdFullScreenContentCallback.ts.meta": {
+      "time": 1731313750839.138
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedAdListener.ts.meta": {
+      "time": 1731313750837.614
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedAdLoadCallback.ts.meta": {
+      "time": 1731313750836.053
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedInterstitialAdLoadCallback.ts.meta": {
+      "time": 1731313750834.2148
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedInterstitialFullScreenContentCallback.ts.meta": {
+      "time": 1731313750832.4897
+    },
+    "/Users/admin/CocosProjects/flappybird/flappybird-cocos/extensions/Google AdMob/assets/ads/listener/RewardedInterstitialListener.ts.meta": {
+      "time": 1731313750830.8276
+    }
+  },
+  "missing": {}
+}

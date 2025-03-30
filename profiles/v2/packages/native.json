@@ -1,0 +1,22 @@
+{
+  "__version__": "1.0.2",
+  "builder": {
+    "taskOptionsMap": {
+      "1731314306149": {
+        "encrypted": false,
+        "xxteaKey": "90cVu6iaJCQ7/Xk/",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      },
+      "1731315406436": {
+        "encrypted": false,
+        "xxteaKey": "baLXFMOhRGNY2mvD",
+        "compressZip": false,
+        "JobSystem": "none",
+        "__version__": "1.0.2"
+      }
+    },
+    "__version__": "1.3.7"
+  }
+}
